@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Dekho Aur Jano</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #3730a3;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg-page: #f8fafc;
+            --bg-card: #ffffff;
+            --border: #e2e8f0;
+            --badge-bg: #e0e7ff;
+            --badge-text: #3730a3;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #6366f1;
+                --primary-dark: #818cf8;
+                --text-main: #f1f5f9;
+                --text-muted: #94a3b8;
+                --bg-page: #0f172a;
+                --bg-card: #1e293b;
+                --border: #334155;
+                --badge-bg: #312e81;
+                --badge-text: #c7d2fe;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.65;
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .meta {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p, ul {
+            margin-bottom: 16px;
+            color: var(--text-main);
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: var(--bg-page);
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px 14px;
+            border: 1px solid var(--border);
+            font-size: 0.95rem;
+        }
+
+        th {
+            background: var(--bg-page);
+            font-weight: 600;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+            padding-top: 20px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 24px 18px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge">Google Play Compliant</span>
+        <h1>Privacy Policy</h1>
+        <div class="meta">
+            <strong>Application:</strong> Dekho Aur Jano<br>
+            <strong>Package Name:</strong> com.aistudio.dekhoaurjano.xznq<br>
+            <strong>Last Updated:</strong> October 7, 2026
+        </div>
+    </header>
+
+    <div class="highlight-box">
+        <p><strong>Overview:</strong> This Privacy Policy describes how <strong>Dekho Aur Jano</strong> ("we", "our", or "the App") collects, uses, handles, and protects your information when you use our Android mobile application. We are committed to maintaining user trust, transparency, and compliance with Google Play Developer Program Policies.</p>
+    </div>
+
+    <h2>1. Permissions & Data Accessed</h2>
+    <p>Dekho Aur Jano is designed with privacy and data minimization in mind. The app requests only the permissions strictly necessary to deliver its core camera scanning, audio dialogue, and smart AI features:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Permission</th>
+                <th>Purpose</th>
+                <th>Data Retention / Sharing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>android.permission.CAMERA</code></td>
+                <td>Allows taking photos or capturing live visual frames to scan text, medicines, documents, nutrition labels, and objects.</td>
+                <td>Camera imagery is processed in memory for visual recognition and is <strong>never sold</strong> or stored permanently on any third-party marketing servers.</td>
+            </tr>
+            <tr>
+                <td><code>android.permission.RECORD_AUDIO</code></td>
+                <td>Enables hands-free voice dialogue and spoken queries in Indian regional languages (Hindi, Marathi, Gujarati, English).</td>
+                <td>Audio input is converted to speech queries transiently during the session. We do not maintain perpetual voice recordings.</td>
+            </tr>
+            <tr>
+                <td><code>android.permission.INTERNET</code></td>
+                <td>Required to communicate with secure Google Gemini APIs for OCR, translation, AI explanations, and Google AdMob ad networks.</td>
+                <td>Standard HTTPS encrypted transmission over TLS/SSL.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <p><strong>Zero Broad Storage Permissions:</strong> In compliance with Google Play storage policies, our app does <em>not</em> request broad storage access (such as <code>READ_EXTERNAL_STORAGE</code> or <code>MANAGE_EXTERNAL_STORAGE</code>). User photo selection utilizes Android's secure system Photo Picker.</p>
+    </div>
+
+    <h2>2. Third-Party Services & SDKs</h2>
+    <p>Our application integrates trusted third-party service providers who may collect information used to identify your device in accordance with their respective privacy policies:</p>
+    <ul>
+        <li>
+            <strong>Google Mobile Ads (AdMob):</strong> Used to deliver Banner, Interstitial, and Rewarded advertisements. AdMob may collect and process device identifiers (such as the Google Advertising ID / GAID), approximate location derived from IP address, and ad interaction telemetry.
+            <br>
+            Read <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's Advertising Privacy & Terms</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+        </li>
+        <li>
+            <strong>Google AI & Gemini API Services:</strong> Used to analyze text, images, and generate multi-turn explanations and translations. Requests are routed over encrypted endpoints.
+        </li>
+    </ul>
+
+    <h2>3. In-App Studio Creations & Local Storage</h2>
+    <p>Any drafts, prompts, or generated creations in the AI Studio are stored locally on your device or kept transiently during your active user session. You have full control to:</p>
+    <ul>
+        <li>Edit or update prompt text at any time.</li>
+        <li>Delete individual creation items directly from the Recent Creations screen.</li>
+        <li>Clear all creation history with a single tap.</li>
+    </ul>
+
+    <h2>4. Children's Privacy</h2>
+    <p>Our app does not knowingly collect personally identifiable information from children under the age of 13. If you believe a child has provided us with personal information, please contact us and we will promptly take steps to delete any such data.</p>
+
+    <h2>5. Security of Your Information</h2>
+    <p>We value your trust in using Dekho Aur Jano. We utilize industry-standard security measures including HTTPS/TLS encryption for all network communications. No transmission over the Internet or electronic storage method is 100% secure, but we continually adopt modern Android security standards and least-privilege principles.</p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any revisions will be reflected on this page with an updated "Last Updated" date. You are advised to review this page periodically for changes.</p>
+
+    <h2>7. Contact Us & Data Deletion Requests</h2>
+    <p>If you have questions, concerns, feedback, or requests regarding this Privacy Policy or your personal data, please contact the developer team at:</p>
+    <div class="highlight-box">
+        <p>
+            <strong>Email:</strong> <a href="mailto:ruturajyt0@gmail.com">ruturajyt0@gmail.com</a><br>
+            <strong>Developer:</strong> Ruturaj / Dekho Aur Jano Developer Team<br>
+            <strong>App:</strong> Dekho Aur Jano
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dekho Aur Jano. All rights reserved. Complies with Google Play Developer Policies.</p>
+    </footer>
+</div>
+
+</body>
+</html>
